@@ -251,3 +251,23 @@ border-radius: 100px;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* footer */
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.get-started h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.footer-description{
+    max-width: 440px;
+}
+.footer-description h3{
+    color:#E6533C;
+    font-size: 50px;
+    font-weight: 800;
+}
