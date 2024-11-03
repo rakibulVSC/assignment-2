@@ -24,7 +24,7 @@ header{
     max-width: 1440px;
     height: auto;
     margin: 0 auto;
-    border:2px solid green;
+  
 
 }
 .navbar{
@@ -66,27 +66,44 @@ header{
     display: flex;
     
     
-    border:2px solid sienna;
    
 }
 
 .header-title{
     max-width: 599px;
     height: auto;
-    border: 2px solid yellow;
+    
 }
 .title-content{
 width: 520px;
   height: 440px;
 }
 .title-content h1{
-    width:250px;
+    /* width:250px; */
     height:150px ;
-    border:2px solid goldenrod;
+    font-size: 78px;
+    font-weight: 900;
 }
 .title-content p{
+    margin-top: 150px;
     width: 250px;
     height: 48px;
+}
+.title-content ul{
+    width: 380px;
+    
+    /* margin-right: -50px; */
+    margin-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.title-content ul>button{
+    
+    gap: 10;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
 }
 /* change our habit */
 .change-our-habit h3{
@@ -270,4 +287,47 @@ border-radius: 100px;
     color:#E6533C;
     font-size: 50px;
     font-weight: 800;
+}
+
+/* media query */
+@media screen and (max-width:576px) {
+    .nav-content{
+        display:none;
+    }
+    .title-content h1{
+        
+      font-size:60px;
+      font-weight: 700;
+     }
+     .title-content p{
+        margin-top: 10px;
+     }
+     .title-content ul{
+        display: flex;
+        flex-direction: column;
+     }
+    .header-content{
+       flex-direction: column;
+    }
+
+    .habit-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .meet-our-team-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-content{
+      display: flex;
+      flex-direction: column;
+    }
+    .run-extra{
+        display: flex;
+        flex-direction: column;
+    }
+    .run-extra-text p{
+        width: 300px;
+        height: auto;
+    }
 }
