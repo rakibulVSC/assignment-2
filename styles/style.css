@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    background-color: black;
+}
+
+/* shared style ------------------------------------------ */
+.primary-color{
+    /* background-color:  #E6533C; */
+    color: #E6533C;
+}
+.secondary-color{
+    color:#e9e8e880;
+}
+.text{
+    color:white;
+}
+/* header style ------------------------------------------- */
+header{
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    border:2px solid green;
+
+}
+.navbar{
+    max-width: 1060px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+   
+}
+.navbar h3{
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-content{
+    display: flex;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-content button{
+    width: 92px;
+    height: 38px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: #E6533C;
+}
+.header-content{
+    max-width: 1060px;
+    height: auto;
+    
+    margin:30px auto;
+    display: flex;
+    
+    
+    border:2px solid sienna;
+   
+}
+
+.header-title{
+    max-width: 599px;
+    height: auto;
+    border: 2px solid yellow;
+}
+.title-content{
+width: 520px;
+  height: 440px;
+}
+.title-content h1{
+    width:250px;
+    height:150px ;
+    border:2px solid goldenrod;
+}
+.title-content p{
+    width: 250px;
+    height: 48px;
+}
+/* change our habit */
+.change-our-habit h3{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.change-our-habit p{
+    color: white;
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+    
+}
+.habit-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    margin: 20px auto;
+    
+}
+.card1{
+    max-width: 231px;
+    
+}
+.card1 img{
+border-radius: 100px;
+ margin-right: 5px;
+}
+
+.card1 h4{
+    color:white;
+    text-align: center;
+}
+.card1 p{
+    width: 231px;
+}
+
+/* Run Extra Style */
+.run-extra{
+    display:  flex;
+    justify-content: space-around;
+    margin: 80px auto;
+}
+.run-extra-img{
+    border-radius: 18px;
+    background: url(4);
+}
+.run-extra-text h3{
+    font-size: 48px;
+    font-weight: 900;
+}
+.run-extra-text p{
+    width: 440px;
+   height: 70px;
+}
+.run-extra-text button{
+    background-color: #E6533C;
+    color:white;
+    border-radius: 40px;
+    padding: 16px 40px 16px 40px;
+}
+.run-extra-img img{
+    max-width: 366px;
+    max-height:312px;
+}
+
+/* meet our team */
+.meet-our-team{
+    margin: 80px auto;
+}
+.meet-our-team h3{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.meet-our-team p{
+    text-align: center;
+}
+.meet-our-team-card{
+    position: relative;
+    display: grid;
+   
+   
+    gap:20px;
+    grid-template-columns: repeat(3,2fr);
+}
+/* card1 */
+.card1{
+    position: relative;
+    width: 324px;
+    height: 270px;
+    background-image: url('../images/exercise1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card1 h4,.card2 h4,.card3 h4,.card4 h4,.card5 h4,.card6 h4{
+    position:absolute;
+    text-align:start ;
+    left: 10px;
+    bottom: 18px;
+    color: white;
+ 
+    
+}
+.card1 p,.card2 p,.card3 p,.card4 p,.card5 p,.card6 p{
+    position:absolute;
+    text-align:start ;
+    left: 10px;
+    bottom: 4px;
+}
+/* card2 */
+.card2{
+    position: relative;
+    width: 324px;
+    height: 270px;
+    background-image: url('../images/exercise2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* card3 */
+
+.card3{
+    position: relative;
+    width: 324px;
+    height: 270px;
+    background-image: url('../images/exercise3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* card4  */
+.card4{
+    position: relative;
+    width: 324px;
+    height: 270px;
+    background-image: url('../images/exercise4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* card5 */
+.card5{
+    position: relative;
+    width: 324px;
+    height: 270px;
+    background-image: url('../images/exercise5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* card6  */
+.card6{
+    position: relative;
+    width: 324px;
+    height: 270px;
+    background-image: url('../images/exercise6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
